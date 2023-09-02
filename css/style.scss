@@ -1,0 +1,326 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap');
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* header */
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 199;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    gap: 100px;
+
+    h1 {
+      color: rgb(29, 24, 24);
+      font-family: 'Marck Script', cursive;
+      z-index: 99;
+    }
+
+    .audio {
+      // width: 70px;
+      // height: 70px;
+      // background: #000;
+      // border-radius: 50%;
+      // color: #fff;
+      background: none;
+
+    }
+  }
+}
+
+#section {
+  .section {
+    position: relative;
+
+    img {
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      z-index: 0;
+      border: 0 none;
+    }
+
+
+
+    &__text {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 20%;
+      left: 20%;
+      text-align: center;
+
+      h1 {
+        font-family: 'Marck Script', cursive;
+        font-weight: 400;
+        font-size: 70px;
+        color: #000;
+      }
+
+      p {
+        font-family: 'Marck Script', cursive;
+        font-weight: 400;
+        font-size: 40px;
+        color: #000;
+      }
+    }
+  }
+}
+
+#chackryy {
+  .chackryy {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 25%;
+      width: 50%;
+    }
+
+    h2 {
+      padding-top: 20px;
+    }
+
+    .tor {
+      padding-top: 100px;
+
+    }
+
+    p {
+      padding-top: 40px;
+    }
+
+    border-bottom: 1px solid #000;
+  }
+}
+
+#addres {
+  position: relative;
+  padding-top: 30px;
+  color: #000;
+
+  img {
+    width: 100%;
+    opacity: 0.3;
+  }
+
+  .addres {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    font-family: 'Cormorant Unicase', serif;
+    text-align: center;
+    margin: 0 auto;
+
+    h2 {
+      padding-top: 20px;
+      font-weight: 400;
+    }
+
+    h1 {
+      padding-top: 20px;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .twogis {
+      padding-top: 30px;
+      width: 100px;
+      z-index: 99;
+      opacity: 1;
+    }
+  }
+}
+
+#setTg {
+  padding-top: 40px;
+
+  .setTg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000;
+    border-radius: 40px;
+    padding: 30px 0;
+    color: #fff;
+
+    h1 {
+      text-align: center;
+      font-size: 18px;
+      padding-bottom: 20px;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+
+      h2 {
+        display: flex;
+        align-items: center;
+        font-size: 42px;
+
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+
+    img {
+      width: 70px;
+    }
+  }
+}
+
+#tg {
+  padding: 50px 0;
+  font-family: 'Cormorant Unicase', serif;
+
+  .countWrap {
+    padding: 100px 0;
+    position: relative;
+
+    img {
+      width: 100%;
+      opacity: 0.5;
+    }
+
+    h1 {
+      position: absolute;
+      top: 40%;
+      left: 27%;
+      text-align: center;
+      font-weight: 500;
+    }
+  }
+
+  .countdown {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .countdown-timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    font-weight: 500;
+  }
+
+  .countdown-label {
+    font-size: 18px;
+    margin-top: 4px;
+    font-weight: 500;
+  }
+
+  .form {
+    h1 {
+      font-size: 28px;
+    }
+
+    &__name {
+      display: flex;
+      padding: 10px 0;
+      gap: 10px;
+      align-items: center;
+    }
+
+    &__getName {
+      padding-top: 20px;
+
+      h2 {
+        padding-bottom: 10px;
+      }
+
+      input {
+        border: 1px solid #000;
+        width: 90%;
+        padding: 5px 10px;
+        border-radius: 20px;
+
+        &:hover {
+          box-shadow: 0 10px 5px -5px rgba(5, 50, 84, 0.2);
+        }
+      }
+
+      padding-bottom: 20px;
+    }
+
+    button {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      background: green;
+      padding: 5px 0;
+      border-radius: 20px;
+      color: #fff;
+    }
+
+    /* Стили для модального окна */
+    .modal {
+      display: none;
+      /* Скрываем модальное окно по умолчанию */
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    /* Стили для содержимого модального окна */
+    .modal-content {
+      background-color: #000;
+      margin: 50% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 50%;
+      text-align: center;
+      position: relative;
+      color: #fff;
+      font-size: 24px;
+    }
+
+    /* Кнопка для закрытия модального окна */
+    .close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+}

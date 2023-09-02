@@ -1,0 +1,273 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* header */
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 199;
+}
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  gap: 100px;
+}
+#header .header h1 {
+  color: rgb(29, 24, 24);
+  font-family: "Marck Script", cursive;
+  z-index: 99;
+}
+#header .header .audio {
+  background: none;
+}
+
+#section .section {
+  position: relative;
+}
+#section .section img {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  border: 0 none;
+}
+#section .section__text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  text-align: center;
+}
+#section .section__text h1 {
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-size: 70px;
+  color: #000;
+}
+#section .section__text p {
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-size: 40px;
+  color: #000;
+}
+
+#chackryy .chackryy {
+  text-align: center;
+  font-family: "Marck Script", cursive;
+  position: relative;
+  border-bottom: 1px solid #000;
+}
+#chackryy .chackryy img {
+  position: absolute;
+  top: 25%;
+  width: 50%;
+}
+#chackryy .chackryy h2 {
+  padding-top: 20px;
+}
+#chackryy .chackryy .tor {
+  padding-top: 100px;
+}
+#chackryy .chackryy p {
+  padding-top: 40px;
+}
+
+#addres {
+  position: relative;
+  padding-top: 30px;
+  color: #000;
+}
+#addres img {
+  width: 100%;
+  opacity: 0.3;
+}
+#addres .addres {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100px;
+  left: 20%;
+  font-family: "Cormorant Unicase", serif;
+  text-align: center;
+  margin: 0 auto;
+}
+#addres .addres h2 {
+  padding-top: 20px;
+  font-weight: 400;
+}
+#addres .addres h1 {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+#addres .addres .twogis {
+  padding-top: 30px;
+  width: 100px;
+  z-index: 99;
+  opacity: 1;
+}
+
+#setTg {
+  padding-top: 40px;
+}
+#setTg .setTg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #000;
+  border-radius: 40px;
+  padding: 30px 0;
+  color: #fff;
+}
+#setTg .setTg h1 {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+#setTg .setTg div {
+  display: flex;
+  align-items: center;
+}
+#setTg .setTg div h2 {
+  display: flex;
+  align-items: center;
+  font-size: 42px;
+}
+#setTg .setTg div h2 span {
+  font-size: 18px;
+}
+#setTg .setTg img {
+  width: 70px;
+}
+
+#tg {
+  padding: 50px 0;
+  font-family: "Cormorant Unicase", serif;
+}
+#tg .countWrap {
+  padding: 100px 0;
+  position: relative;
+}
+#tg .countWrap img {
+  width: 100%;
+  opacity: 0.5;
+}
+#tg .countWrap h1 {
+  position: absolute;
+  top: 40%;
+  left: 27%;
+  text-align: center;
+  font-weight: 500;
+}
+#tg .countdown {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+#tg .countdown-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  font-weight: 500;
+}
+#tg .countdown-label {
+  font-size: 18px;
+  margin-top: 4px;
+  font-weight: 500;
+}
+#tg .form {
+  /* Стили для модального окна */
+  /* Стили для содержимого модального окна */
+  /* Кнопка для закрытия модального окна */
+}
+#tg .form h1 {
+  font-size: 28px;
+}
+#tg .form__name {
+  display: flex;
+  padding: 10px 0;
+  gap: 10px;
+  align-items: center;
+}
+#tg .form__getName {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#tg .form__getName h2 {
+  padding-bottom: 10px;
+}
+#tg .form__getName input {
+  border: 1px solid #000;
+  width: 90%;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+#tg .form__getName input:hover {
+  box-shadow: 0 10px 5px -5px rgba(5, 50, 84, 0.2);
+}
+#tg .form button {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background: green;
+  padding: 5px 0;
+  border-radius: 20px;
+  color: #fff;
+}
+#tg .form .modal {
+  display: none;
+  /* Скрываем модальное окно по умолчанию */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#tg .form .modal-content {
+  background-color: #000;
+  margin: 50% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  font-size: 24px;
+}
+#tg .form .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
