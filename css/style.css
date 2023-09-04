@@ -83,13 +83,15 @@
   top: 25%;
   width: 50%;
 }
-#chackryy .chackryy h2 {
+#chackryy .chackryy h1 {
+  font-size: 36px;
   padding-top: 20px;
 }
 #chackryy .chackryy .tor {
   padding-top: 100px;
 }
 #chackryy .chackryy p {
+  font-size: 28px;
   padding-top: 40px;
 }
 
@@ -133,34 +135,23 @@
 #setTg {
   padding-top: 40px;
 }
-#setTg .setTg {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #000;
-  border-radius: 40px;
-  padding: 30px 0;
-  color: #fff;
+#setTg .swiper {
+  width: 90%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-#setTg .setTg h1 {
-  text-align: center;
-  font-size: 18px;
-  padding-bottom: 20px;
+#setTg .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 350px;
 }
-#setTg .setTg div {
-  display: flex;
-  align-items: center;
-}
-#setTg .setTg div h2 {
-  display: flex;
-  align-items: center;
-  font-size: 42px;
-}
-#setTg .setTg div h2 span {
-  font-size: 18px;
-}
-#setTg .setTg img {
-  width: 70px;
+#setTg .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 #tg {
@@ -238,7 +229,7 @@
 #tg .form__getName input {
   border: 1px solid #000;
   width: 90%;
-  padding: 5px 10px;
+  padding: 10px 10px;
   border-radius: 20px;
 }
 #tg .form__getName input:hover {
@@ -251,7 +242,7 @@
   align-items: center;
   width: 50%;
   background: green;
-  padding: 5px 0;
+  padding: 10px 0;
   border-radius: 20px;
   color: #fff;
 }
@@ -267,11 +258,11 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 #tg .form .modal-content {
-  background-color: #000;
-  margin: 50% auto;
-  padding: 20px;
+  background-color: green;
+  margin-top: 109%;
+  padding: 60px;
   border: 1px solid #888;
-  width: 50%;
+  width: 100%;
   text-align: center;
   position: relative;
   color: #fff;
@@ -283,4 +274,5 @@
   right: 0;
   padding: 10px;
   cursor: pointer;
+  font-size: 54px;
 }/*# sourceMappingURL=style.css.map */

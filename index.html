@@ -8,6 +8,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
     <title>Тойго чакыруу</title>
   </head>
   <body>
@@ -17,7 +21,7 @@
         <div class="header">
           <!-- <h1>Тойго чакыруу</h1> -->
           <audio id="audio" src="./audio/mp.mp3" type="audio/mpeg"></audio>
-          <button class="audio" id="toggleButton">Play</button>
+          <button class="audio" id="toggleButton"></button>
         </div>
       </div>
     </div>
@@ -28,7 +32,7 @@
           src="https://i.pinimg.com/564x/96/b5/49/96b549b8042246854881da98101542d8.jpg"
           alt=""
         /> -->
-        <img src="./img/чакыруу.gif" alt="">
+        <img src="./img/log.gif" alt="" />
         <!-- <div class="section__text">
           <h1 data-aos="fade-right" data-aos-delay="100">
             Арген <br />
@@ -42,16 +46,14 @@
     <div id="chackryy">
       <div class="container">
         <div class="chackryy">
-          <h2 data-aos="fade-up">Урматтуу коноктор!</h2>
+          <h1 data-aos="fade-up">Чакыруу</h1>
           <p data-aos="fade-up">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            excepturi cum, reprehenderit maxime aut voluptatibus fuga, optio
-            nostrum quo architecto error natus eligendi delectus molestiae
-            sapiente iure quod harum mollitia.
+            Бирге болуп тилегибиз, оюбуз . Белгиленди үлпөт курчу тоюбуз,
+            Чакырабыз келип биздин кечеге. Төрүбүздө сыйлуу мейман болуңуз!
           </p>
 
           <h2 data-aos="fade-up" class="tor">Той ээлери:</h2>
-          <h1 data-aos="fade-up">Аскат Беко</h1>
+          <h1 data-aos="fade-up">Аскат, Айдай</h1>
         </div>
       </div>
     </div>
@@ -79,22 +81,31 @@
     </div>
     <div id="setTg">
       <div class="container">
-        <img
-          style="width: 50%; display: flex; margin: 0 auto"
-          class="gul"
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="300"
-          data-aos-offset="0"
-          src="https://i.pinimg.com/564x/36/1b/80/361b80b4f76b3607441834454a2ee1e1.jpg"
-          alt=""
-        />
-        <div class="setTg">
-          <h1 data-aos="fade-up">Той фотолорун жиберүү</h1>
-          <div>
-            <h2><span data-aos="fade-up">басыныз</span>👉🏻</h2>
-            <img src="./img/telegram.png" alt="" />
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://i.pinimg.com/564x/a8/1a/49/a81a497e46f8451cb1da1314836dfb9b.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://i.pinimg.com/564x/fd/36/1d/fd361dd9c797ee787b7dc338e453c547.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://i.pinimg.com/564x/8f/64/c9/8f64c930ef841f46926b68424368082c.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://i.pinimg.com/564x/c0/d1/ee/c0d1ee8b0d5633529e793a69cf616ac0.jpg"
+              />
+            </div>
           </div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>
@@ -146,7 +157,7 @@
             <h3>Чогу барабыз</h3>
           </div>
           <div data-aos="fade-up" class="form__getName">
-            <h2>Тойго келүүчүлөрдүн аты жөну</h2>
+            <h2>Тойго келүүчүлөрдүн аты-жөнү</h2>
             <input type="text" id="nameInput" />
           </div>
           <button id="submitButton">Жиберүү</button>
@@ -162,8 +173,8 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-
     <script src="./js/app.js"></script>
   </body>
 </html>
