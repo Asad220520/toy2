@@ -80,7 +80,7 @@ window.addEventListener("click", function (event) {
 AOS.init();
 
 // Установите дату
-const countdownDate = new Date("2023-09-31T23:59:59").getTime();
+const countdownDate = new Date("2023-09-25T23:59:59").getTime();
 
 const x = setInterval(function () {
   const now = new Date().getTime();
